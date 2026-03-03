@@ -1,0 +1,25 @@
+{
+  "github_url": "https://github.com/Traia-IO/petstore-mcp-server",
+  "mcp_server": {
+    "name": "petstore-mcp",
+    "description": "Https://petstore3.swagger.io/api/v3",
+    "server_type": "streamable-http",
+    "requires_api_key": false,
+    "capabilities": [
+      "logs_user_into_the_system",
+      "logs_out_current_logged_in_user_session"
+    ],
+    "payment_protocol": "402",
+    "dual_mode": true,
+    "dual_mode_description": "Supports both authenticated (free with API key) and payment (402 protocol) modes"
+  },
+  "deployment_method": "cloud_run",
+  "gcp_project_id": "traia-mcp-servers",
+  "gcp_region": "us-central1",
+  "tags": [
+    "petstore",
+    "api",
+    "mcp"
+  ],
+  "ref": "main"
+}
