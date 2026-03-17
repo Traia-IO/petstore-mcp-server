@@ -93,10 +93,10 @@ logger.info(f"✅ FastMCP server created")
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="10000000000000000",  # 0.01 tokens
+        amount="10000",  # 0.01 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
@@ -161,10 +161,10 @@ async def logs_user_into_the_system(
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="10000000000000000",  # 0.01 tokens
+        amount="10000",  # 0.01 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",

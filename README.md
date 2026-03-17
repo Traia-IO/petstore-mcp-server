@@ -117,7 +117,7 @@ The `deployment_params.json` file contains the deployment configuration for this
   "github_url": "https://github.com/Traia-IO/petstore-mcp-server",
   "mcp_server": {
     "name": "petstore-mcp",
-    "description": "Https://petstore3.swagger.io/api/v3",
+    "description": "This is a test mcp",
     "server_type": "streamable-http",
 "capabilities": [
       // List all implemented tool names here
